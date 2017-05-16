@@ -4,24 +4,39 @@
 	<title>Crystal Collector</title>
 	<!--Css-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<!--Javascript-->
-	<script type="text/javascript" src="assets/javascript/game.js" ></script>
+	
 </head>
 <body>
 	<div id="wrapper">
-		<h1> Crystal Collector </h1>
-
-		<div class="instructions">
-			<p> You will be given a random number at the start of the game. </p>
-			<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to you total score. </p>
-			<p> You win the game by matching your total score to the random number. You lose the game if your total score goes about the random number. </p>
-			<p> Each time the game starts, the values of the crystals will change. </p>
+		<div class="col-md-12">
+			<div class="row">
+				<h1> Crystal Collector </h1>
+			</div>
 		</div>
+
+		<div class="col-md-1"></div>
+
+		<div class="col-md-10">
+			<div class="row">
+				<div class="instructions">
+					<h2>How To Play</h2>
+					<p> You will be given a random number at the start of the game. </p>
+					<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to you total score. </p>
+					<p> You win the game by matching your total score to the random number. You lose the game if your total score goes about the random number. </p>
+					<p> Each time the game starts, the values of the crystals will change. </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-1"></div>
 
 		<div class = "container">
 			<div id="guessNumber">
@@ -43,6 +58,9 @@
 		
 		</div>
 	</div>
+
+	<!--Javascript-->
+	<script type="text/javascript" src="assets/javascript/game.js" ></script>
 
 </body>
 </html>
