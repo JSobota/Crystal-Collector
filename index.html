@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Crystal Collector</title>
-	<!--Css-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 	<!-- Jquery -->
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 
@@ -12,48 +11,81 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!--Css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 	
 </head>
 <body>
 	<div id="wrapper">
-		<div class="col-md-12">
-			<div class="row">
+		<div class="row">
+			<div class="col-md-12">
 				<h1> Crystal Collector </h1>
 			</div>
 		</div>
 
-		<div class="col-md-1"></div>
-
-		<div class="col-md-10">
-			<div class="row">
-				<div class="instructions">
-					<h2>How To Play</h2>
-					<p> You will be given a random number at the start of the game. </p>
-					<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to you total score. </p>
-					<p> You win the game by matching your total score to the random number. You lose the game if your total score goes about the random number. </p>
-					<p> Each time the game starts, the values of the crystals will change. </p>
-				</div>
-			</div>
+		<div class="row">
+			<div class="col-md-1"></div>
 		</div>
 
-		<div class="col-md-1"></div>
+		<div class="row">
+
+			<div class="col-md-10">
+				
+				<div class="instructions">
+					<div class="row">
+						<div class=" col-md-12">
+							<h2>How To Play</h2>
+						</div>
+						<div class=" col-md-12">
+							<p> You will be given a random number at the start of the game. </p>
+						</div>
+						<div class=" col-md-12">
+							<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to you total score. </p>
+						</div>
+						<div class=" col-md-12">
+							<p> You win the game by matching your total score to the random number. You lose the game if your total score goes about the random number. </p>
+						</div>
+						<div class=" col-md-12">
+							<p> Each time the game starts, the values of the crystals will change. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-1"></div>
+		</div>
 
 		<div class = "container">
 			<div id="guessNumber">
-				<h2>Number to Guess: <span class="value"></span></h2>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Number to Guess: <span class="value"></span></h2>
+					</div>
+				</div>
 			</div>
-
-			<div id="scoreboard">
-				<h3><span id="status"></span></h3>
-				<h3>Wins: <span id="wins"></span></h3>
-				<h3>Losses: <span id="losses"></span></h3>
+			
+			<div class="row">
+					<div id="scoreboard">
+						<h3><span id="status"></span></h3>
+						<h3>Wins: <span id="wins"></span></h3>
+						<h3>Losses: <span id="losses"></span></h3>
+					</div>
 			</div>
 		
+			<div class="row">
+				<div id="crystals"></div>
+			</div>
 
-			<div id="crystals"></div>
-
-			<div id="scoreTotal">
-				<h2 id="playerTotalScore">Your Total Score is: <span id="yourScore">0</span></h2>
+			<div class="row">
+				<div id="scoreTotal">
+					<h2 id="playerTotalScore">Your Total Score is: <span id="yourScore">0</span></h2>
+				</div>
 			</div>
 		
 		</div>

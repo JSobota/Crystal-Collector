@@ -1,11 +1,12 @@
+body {
+	font-family: 'VT323', monospace;
+}
+
 h1{
-	background-color: orange;
-	color: white;
-	display:inline;
-	clear: both;
+	text-align: center;
 	padding: 10px;
 	margin-bottom: 20px;
-	border: solid 1px #ddd;
+	border: solid 2px #666666;
 }
 
 #wrapper {
